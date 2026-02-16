@@ -1,0 +1,228 @@
+[2m2026-02-16T18:36:27.862947Z[0m [32m INFO[0m Created data directory: /home/jules/.gkg
+[2m2026-02-16T18:36:27.864339Z[0m [32m INFO[0m Discovering workspace: /app/superset_repo
+[2m2026-02-16T18:36:27.864372Z[0m [32m INFO[0m Cleaning up workspace: /app/superset_repo
+[2m2026-02-16T18:36:27.864387Z[0m [32m INFO[0m Indexing repositories in workspace: /app/superset_repo
+[2m2026-02-16T18:36:27.994596Z[0m [32m INFO[0m Finished indexing repositories in workspace: /app/superset_repo, statistics: WorkspaceFolderStatistics { file_count: 7291, repo_count: 1 }
+[2m2026-02-16T18:36:27.994640Z[0m [32m INFO[0m Found 1 repositories with 7291 files in workspace
+[2m2026-02-16T18:36:27.996819Z[0m [32m INFO[0m Starting repository indexing for: superset_repo
+[2m2026-02-16T18:36:28.172826Z[0m [32m INFO[0m Processing 3773 files
+[2m2026-02-16T18:36:28.172876Z[0m [32m INFO[0m Using 4 CPU workers (spawn_blocking)
+[2m2026-02-16T18:36:29.000681Z[0m [32m INFO[0m 🔄 Progress: 10% (378/3773 files) - 456.7 files/sec - 378 processed, 0 skipped, 0 errors
+[2m2026-02-16T18:36:29.596062Z[0m [32m INFO[0m 🔄 Progress: 20% (755/3773 files) - 530.5 files/sec - 755 processed, 0 skipped, 0 errors
+[2m2026-02-16T18:36:30.351162Z[0m [32m INFO[0m 🔄 Progress: 30% (1132/3773 files) - 519.7 files/sec - 1132 processed, 0 skipped, 0 errors
+[2m2026-02-16T18:36:30.631493Z[0m [32m INFO[0m 🔄 Progress: 40% (1510/3773 files) - 614.2 files/sec - 1510 processed, 0 skipped, 0 errors
+[2m2026-02-16T18:36:31.111434Z[0m [32m INFO[0m 🔄 Progress: 50% (1887/3773 files) - 642.2 files/sec - 1887 processed, 0 skipped, 0 errors
+[2m2026-02-16T18:36:32.123329Z[0m [32m INFO[0m 🔄 Progress: 60% (2264/3773 files) - 573.1 files/sec - 2264 processed, 0 skipped, 0 errors
+[2m2026-02-16T18:36:32.455489Z[0m [31mERROR[0m Error: Error { error: (8816..8823, TS1109) } for dialect: JavaScript
+[2m2026-02-16T18:36:32.505659Z[0m [32m INFO[0m 🔄 Progress: 70% (2642/3773 files) - 609.8 files/sec - 2641 processed, 0 skipped, 1 errors
+[2m2026-02-16T18:36:32.607150Z[0m [32m INFO[0m 🔄 Progress: 80% (3019/3773 files) - 680.9 files/sec - 3018 processed, 0 skipped, 1 errors
+[2m2026-02-16T18:36:32.690806Z[0m [32m INFO[0m 🔄 Progress: 90% (3396/3773 files) - 751.7 files/sec - 3395 processed, 0 skipped, 1 errors
+[2m2026-02-16T18:36:32.723279Z[0m [31mERROR[0m Error: Error { error: (963..968, Expected(",", "xmlns")) } for dialect: JavaScript
+[2m2026-02-16T18:36:32.723384Z[0m [31mERROR[0m Error: Error { error: (3422..3426, Expected(",", "href")) } for dialect: JavaScript
+[2m2026-02-16T18:36:32.723684Z[0m [31mERROR[0m Error: Error { error: (2001..2002, Expected(";", "{")) } for dialect: JavaScript
+[2m2026-02-16T18:36:32.790460Z[0m [32m INFO[0m 🔄 Progress: 100% (3773/3773 files) - 817.1 files/sec - 3769 processed, 0 skipped, 4 errors
+[2m2026-02-16T18:36:32.790507Z[0m [32m INFO[0m ✅ Pipelined processing completed: 3769 processed, 0 skipped, 4 errors (3773 total)
+[2m2026-02-16T18:36:32.791572Z[0m [32m INFO[0m Starting analysis and writing phase for repository: superset_repo
+[2m2026-02-16T18:36:32.791615Z[0m [32m INFO[0m Starting analysis of 3769 file results for repository 'superset_repo' at '/app/superset_repo'
+[2m2026-02-16T18:36:32.949974Z[0m [33m WARN[0m Duplicate definition found for Python: StatsdStatsLogger in file superset/stats_logger.py
+[2m2026-02-16T18:36:32.950033Z[0m [33m WARN[0m Duplicate definition found for Python: __init__ in file superset/stats_logger.py
+[2m2026-02-16T18:36:32.952038Z[0m [33m WARN[0m Duplicate definition found for Python: params in file superset/models/dashboard.py
+[2m2026-02-16T18:36:32.952252Z[0m [33m WARN[0m Duplicate definition found for Python: tracking_url in file superset/models/sql_lab.py
+[2m2026-02-16T18:36:32.952678Z[0m [33m WARN[0m Duplicate definition found for Python: perm in file superset/models/core.py
+[2m2026-02-16T18:36:32.976673Z[0m [33m WARN[0m Duplicate definition found for Python: cache_timeout in file superset/connectors/sqla/models.py
+[2m2026-02-16T18:36:32.978394Z[0m [33m WARN[0m Duplicate definition found for Python: whisker_high in file superset/utils/pandas_postprocessing/boxplot.py
+[2m2026-02-16T18:36:32.978430Z[0m [33m WARN[0m Duplicate definition found for Python: whisker_low in file superset/utils/pandas_postprocessing/boxplot.py
+[2m2026-02-16T18:36:32.981413Z[0m [33m WARN[0m Duplicate definition found for Python: extra in file superset/models/helpers.py
+[2m2026-02-16T18:36:33.145331Z[0m [33m WARN[0m Duplicate definition found for Python: some_function in file tests/integration_tests/utils/public_interfaces_test.py
+[2m2026-02-16T18:36:33.145369Z[0m [33m WARN[0m Duplicate definition found for Python: SomeClass in file tests/integration_tests/utils/public_interfaces_test.py
+[2m2026-02-16T18:36:33.145375Z[0m [33m WARN[0m Duplicate definition found for Python: __init__ in file tests/integration_tests/utils/public_interfaces_test.py
+[2m2026-02-16T18:36:33.145380Z[0m [33m WARN[0m Duplicate definition found for Python: add in file tests/integration_tests/utils/public_interfaces_test.py
+[2m2026-02-16T18:36:33.145384Z[0m [33m WARN[0m Duplicate definition found for Python: SomeClass in file tests/integration_tests/utils/public_interfaces_test.py
+[2m2026-02-16T18:36:33.145389Z[0m [33m WARN[0m Duplicate definition found for Python: __init__ in file tests/integration_tests/utils/public_interfaces_test.py
+[2m2026-02-16T18:36:33.145394Z[0m [33m WARN[0m Duplicate definition found for Python: SomeClass in file tests/integration_tests/utils/public_interfaces_test.py
+[2m2026-02-16T18:36:33.145399Z[0m [33m WARN[0m Duplicate definition found for Python: __init__ in file tests/integration_tests/utils/public_interfaces_test.py
+[2m2026-02-16T18:36:33.145403Z[0m [33m WARN[0m Duplicate definition found for Python: add in file tests/integration_tests/utils/public_interfaces_test.py
+[2m2026-02-16T18:36:35.790166Z[0m [32m INFO[0m Analysis completed in 2.998541642s: 978 directories, 3769 files, 18577 definitions (18577 total locations), 28634 imported symbols (28634 total locations), 81224 total relationships
+[2m2026-02-16T18:36:35.790338Z[0m [32m INFO[0m Analysis completed: 3769 files, 18577 definitions, 28634 imported symbols, 81224 relationships
+[2m2026-02-16T18:36:35.790373Z[0m [32m INFO[0m Starting to write graph data to Parquet files in directory: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files
+[2m2026-02-16T18:36:35.824078Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(3045,3103) File(superset-frontend/src/explore/actions/saveModalActions.test.ts)
+[2m2026-02-16T18:36:35.824113Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(3113,3146) File(superset-frontend/src/explore/actions/saveModalActions.test.ts)
+[2m2026-02-16T18:36:35.824118Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(4420,4478) File(superset-frontend/src/explore/actions/saveModalActions.test.ts)
+[2m2026-02-16T18:36:35.824122Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(4489,4522) File(superset-frontend/src/explore/actions/saveModalActions.test.ts)
+[2m2026-02-16T18:36:35.824126Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(5718,5765) File(superset-frontend/src/explore/actions/saveModalActions.test.ts)
+[2m2026-02-16T18:36:35.824129Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(5775,5808) File(superset-frontend/src/explore/actions/saveModalActions.test.ts)
+[2m2026-02-16T18:36:35.824133Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(6576,6623) File(superset-frontend/src/explore/actions/saveModalActions.test.ts)
+[2m2026-02-16T18:36:35.824137Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(6633,6666) File(superset-frontend/src/explore/actions/saveModalActions.test.ts)
+[2m2026-02-16T18:36:35.824141Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(8548,8595) File(superset-frontend/src/explore/actions/saveModalActions.test.ts)
+[2m2026-02-16T18:36:35.824163Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(8605,8638) File(superset-frontend/src/explore/actions/saveModalActions.test.ts)
+[2m2026-02-16T18:36:35.824167Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(10401,10448) File(superset-frontend/src/explore/actions/saveModalActions.test.ts)
+[2m2026-02-16T18:36:35.824575Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(1627,2237) File(superset-frontend/src/explore/components/controls/MetricControl/AdhocMetric.ts)
+[2m2026-02-16T18:36:35.824582Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(2239,2647) File(superset-frontend/src/explore/components/controls/MetricControl/AdhocMetric.ts)
+[2m2026-02-16T18:36:35.824925Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(4274,4426) File(superset-frontend/src/SqlLab/actions/sqlLab.test.ts)
+[2m2026-02-16T18:36:35.824935Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(13429,13616) File(superset-frontend/src/SqlLab/actions/sqlLab.test.ts)
+[2m2026-02-16T18:36:35.824939Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(15757,15899) File(superset-frontend/src/SqlLab/actions/sqlLab.test.ts)
+[2m2026-02-16T18:36:35.824942Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(18579,18721) File(superset-frontend/src/SqlLab/actions/sqlLab.test.ts)
+[2m2026-02-16T18:36:35.824946Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(20056,20207) File(superset-frontend/src/SqlLab/actions/sqlLab.test.ts)
+[2m2026-02-16T18:36:35.825678Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(1504,1583) File(superset-frontend/src/utils/urlUtils.ts)
+[2m2026-02-16T18:36:35.825697Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(1591,1670) File(superset-frontend/src/utils/urlUtils.ts)
+[2m2026-02-16T18:36:35.825702Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(1678,1759) File(superset-frontend/src/utils/urlUtils.ts)
+[2m2026-02-16T18:36:35.825705Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(1767,1846) File(superset-frontend/src/utils/urlUtils.ts)
+[2m2026-02-16T18:36:35.825709Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(1854,1927) File(superset-frontend/src/utils/urlUtils.ts)
+[2m2026-02-16T18:36:35.825712Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(1935,2031) File(superset-frontend/src/utils/urlUtils.ts)
+[2m2026-02-16T18:36:35.825771Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(1113,1196) File(superset-frontend/src/hooks/apiResources/apiResources.test.ts)
+[2m2026-02-16T18:36:35.826272Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(29620,29684) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.826282Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(29717,31962) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.826286Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(31968,33172) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.826290Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(33177,33672) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.826294Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(33677,33925) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.826308Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(33931,34380) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.826312Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(34799,36660) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.826316Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(36666,37481) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.826320Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(37487,38444) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.826324Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(38450,38909) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.826339Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(38915,39519) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.826343Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(39525,40606) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.826347Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(40612,40936) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.826351Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(40942,41579) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.826355Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(41585,41908) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.826359Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(41914,44689) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.826374Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(45433,47497) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.826379Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(48871,49119) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.826383Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(49125,49574) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.826404Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(1311,1386) File(superset-frontend/packages/superset-ui-core/src/number-format/NumberFormatter.ts)
+[2m2026-02-16T18:36:35.828268Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(3736,4380) File(superset-frontend/plugins/plugin-chart-echarts/test/Pie/transformProps.test.ts)
+[2m2026-02-16T18:36:35.828306Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(11247,12362) File(superset-frontend/plugins/plugin-chart-echarts/test/Pie/transformProps.test.ts)
+[2m2026-02-16T18:36:35.829539Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(5569,5604) File(superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/common.test.ts)
+[2m2026-02-16T18:36:35.829572Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(5915,5934) File(superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/common.test.ts)
+[2m2026-02-16T18:36:35.829577Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(6096,6121) File(superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/common.test.ts)
+[2m2026-02-16T18:36:35.830040Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(1261,1399) File(superset-frontend/packages/superset-ui-core/src/currency-format/CurrencyFormatter.ts)
+[2m2026-02-16T18:36:35.830127Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(1073,1162) File(superset-frontend/packages/superset-ui-core/src/time-format/TimeRangeFormatter.ts)
+[2m2026-02-16T18:36:35.830165Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(1242,1322) File(superset-frontend/packages/superset-ui-core/src/time-format/TimeFormatter.ts)
+[2m2026-02-16T18:36:35.830457Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(978,1015) File(superset-frontend/packages/superset-ui-core/test/models/ExtensibleFunction.test.ts)
+[2m2026-02-16T18:36:35.830465Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(1136,1173) File(superset-frontend/packages/superset-ui-core/test/models/ExtensibleFunction.test.ts)
+[2m2026-02-16T18:36:35.830832Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(1045,1094) File(superset-frontend/packages/superset-ui-core/src/hooks/usePrevious/usePrevious.ts)
+[2m2026-02-16T18:36:35.830841Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(1102,1172) File(superset-frontend/packages/superset-ui-core/src/hooks/usePrevious/usePrevious.ts)
+[2m2026-02-16T18:36:35.830927Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(6188,6217) File(superset-frontend/packages/superset-core/src/ui/theme/utils/utils.test.ts)
+[2m2026-02-16T18:36:35.831265Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(1525,1826) File(superset-frontend/packages/superset-ui-core/src/color/CategoricalColorNamespace.ts)
+[2m2026-02-16T18:36:35.831377Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(1389,1475) File(superset-frontend/packages/superset-ui-core/src/color/CategoricalColorScale.ts)
+[2m2026-02-16T18:36:35.832219Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(10376,10665) File(superset-websocket/spec/index.test.ts)
+[2m2026-02-16T18:36:35.833009Z[0m [33m WARN[0m (DEFINES_DEFINITION) Source definition ID not found: byte_offset(33140,33142) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.833024Z[0m [33m WARN[0m (DEFINES_DEFINITION) Source definition ID not found: byte_offset(33483,33495) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.833028Z[0m [33m WARN[0m (DEFINES_DEFINITION) Source definition ID not found: byte_offset(33874,33876) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.833037Z[0m [33m WARN[0m (DEFINES_DEFINITION) Source definition ID not found: byte_offset(33967,33969) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.833041Z[0m [33m WARN[0m (DEFINES_DEFINITION) Source definition ID not found: byte_offset(34857,34859) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.833045Z[0m [33m WARN[0m (DEFINES_DEFINITION) Source definition ID not found: byte_offset(38179,38180) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.833060Z[0m [33m WARN[0m (DEFINES_DEFINITION) Source definition ID not found: byte_offset(40693,40695) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.833064Z[0m [33m WARN[0m (DEFINES_DEFINITION) Source definition ID not found: byte_offset(41500,41502) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.833068Z[0m [33m WARN[0m (DEFINES_DEFINITION) Source definition ID not found: byte_offset(42619,42621) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.833072Z[0m [33m WARN[0m (DEFINES_DEFINITION) Source definition ID not found: byte_offset(43756,43758) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.833082Z[0m [33m WARN[0m (DEFINES_DEFINITION) Source definition ID not found: byte_offset(44397,44399) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.833087Z[0m [33m WARN[0m (DEFINES_DEFINITION) Source definition ID not found: byte_offset(44597,44598) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.833091Z[0m [33m WARN[0m (DEFINES_DEFINITION) Source definition ID not found: byte_offset(44626,44627) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.833097Z[0m [33m WARN[0m (DEFINES_DEFINITION) Source definition ID not found: byte_offset(49068,49070) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.833101Z[0m [33m WARN[0m (DEFINES_DEFINITION) Source definition ID not found: byte_offset(49161,49163) File(superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/vendor/parcoords/d3.parcoords.ts)
+[2m2026-02-16T18:36:35.833511Z[0m [33m WARN[0m (DEFINES_DEFINITION) Target definition ID not found: byte_offset(10618,10636) File(superset-frontend/packages/superset-ui-core/src/color/CategoricalColorScale.ts)
+[2m2026-02-16T18:36:35.833527Z[0m [33m WARN[0m (DEFINES_DEFINITION) Target definition ID not found: byte_offset(10196,10231) File(superset-frontend/packages/superset-ui-core/src/color/CategoricalColorScale.ts)
+[2m2026-02-16T18:36:35.833532Z[0m [33m WARN[0m (DEFINES_DEFINITION) Target definition ID not found: byte_offset(11377,11418) File(superset-frontend/packages/superset-ui-core/src/color/CategoricalColorScale.ts)
+[2m2026-02-16T18:36:35.837128Z[0m [33m WARN[0m (FILE_DEFINES) Target definition ID not found: byte_offset(3681,4590) File(superset/stats_logger.py)
+[2m2026-02-16T18:36:35.864560Z[0m [33m WARN[0m Consolidated relationships: dir_not_found: 0, file_not_found: 0, def_not_found: 80, import_not_found: 0
+[2m2026-02-16T18:36:35.934008Z[0m [32m INFO[0m Writing DirectoryNode nodes to Parquet: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/directories.parquet
+[2m2026-02-16T18:36:35.935666Z[0m [32m INFO[0m ✅ Successfully wrote 978 DirectoryNode nodes to Parquet
+[2m2026-02-16T18:36:35.935709Z[0m [32m INFO[0m Writing FileNode nodes to Parquet: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/files.parquet
+[2m2026-02-16T18:36:35.941502Z[0m [32m INFO[0m ✅ Successfully wrote 3769 FileNode nodes to Parquet
+[2m2026-02-16T18:36:35.941572Z[0m [32m INFO[0m Writing DefinitionNode nodes to Parquet: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/definitions.parquet
+[2m2026-02-16T18:36:36.021184Z[0m [32m INFO[0m ✅ Successfully wrote 18577 DefinitionNode nodes to Parquet
+[2m2026-02-16T18:36:36.021251Z[0m [32m INFO[0m Writing ImportedSymbolNode nodes to Parquet: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/imported_symbols.parquet
+[2m2026-02-16T18:36:36.050817Z[0m [32m INFO[0m ✅ Successfully wrote 28634 ImportedSymbolNode nodes to Parquet
+[2m2026-02-16T18:36:36.051602Z[0m [32m INFO[0m Writing 967 consolidated relationships to Parquet: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/directorynode_to_directorynode_relationships.parquet
+[2m2026-02-16T18:36:36.053694Z[0m [32m INFO[0m ✅ Successfully wrote 967 consolidated relationships to Parquet
+[2m2026-02-16T18:36:36.055294Z[0m [32m INFO[0m Writing 3768 consolidated relationships to Parquet: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/directorynode_to_filenode_relationships.parquet
+[2m2026-02-16T18:36:36.057257Z[0m [32m INFO[0m ✅ Successfully wrote 3768 consolidated relationships to Parquet
+[2m2026-02-16T18:36:36.060179Z[0m [32m INFO[0m Writing 17375 consolidated relationships to Parquet: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/filenode_to_definitionnode_relationships.parquet
+[2m2026-02-16T18:36:36.074560Z[0m [32m INFO[0m ✅ Successfully wrote 17375 consolidated relationships to Parquet
+[2m2026-02-16T18:36:36.081905Z[0m [32m INFO[0m Writing 28634 consolidated relationships to Parquet: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/filenode_to_importedsymbolnode_relationships.parquet
+[2m2026-02-16T18:36:36.098702Z[0m [32m INFO[0m ✅ Successfully wrote 28634 consolidated relationships to Parquet
+[2m2026-02-16T18:36:36.107410Z[0m [32m INFO[0m Writing 18819 consolidated relationships to Parquet: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/definitionnode_to_definitionnode_relationships.parquet
+[2m2026-02-16T18:36:36.130405Z[0m [32m INFO[0m ✅ Successfully wrote 18819 consolidated relationships to Parquet
+[2m2026-02-16T18:36:36.133281Z[0m [32m INFO[0m Writing 2276 consolidated relationships to Parquet: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/definitionnode_to_importedsymbolnode_relationships.parquet
+[2m2026-02-16T18:36:36.136197Z[0m [32m INFO[0m ✅ Successfully wrote 2276 consolidated relationships to Parquet
+[2m2026-02-16T18:36:36.137529Z[0m [32m INFO[0m Writing 647 consolidated relationships to Parquet: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/importedsymbolnode_to_importedsymbolnode_relationships.parquet
+[2m2026-02-16T18:36:36.138541Z[0m [32m INFO[0m ✅ Successfully wrote 647 consolidated relationships to Parquet
+[2m2026-02-16T18:36:36.140994Z[0m [32m INFO[0m Writing 8433 consolidated relationships to Parquet: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/importedsymbolnode_to_definitionnode_relationships.parquet
+[2m2026-02-16T18:36:36.150684Z[0m [32m INFO[0m ✅ Successfully wrote 8433 consolidated relationships to Parquet
+[2m2026-02-16T18:36:36.152700Z[0m [32m INFO[0m Writing 225 consolidated relationships to Parquet: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/importedsymbolnode_to_filenode_relationships.parquet
+[2m2026-02-16T18:36:36.153365Z[0m [32m INFO[0m ✅ Successfully wrote 225 consolidated relationships to Parquet
+[2m2026-02-16T18:36:36.153416Z[0m [32m INFO[0m ✅ Parquet writing completed in 363.042222ms. Files written: 13
+[2m2026-02-16T18:36:36.171811Z[0m [32m INFO[0m ✅ Analysis and writing completed in 3.380204733s. Parquet files created: 13
+[2m2026-02-16T18:36:36.171910Z[0m [32m INFO[0m Loading graph data into Kuzu database at: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/database.kz
+[2m2026-02-16T18:36:36.171918Z[0m [32m INFO[0m Initializing Kuzu database and loading graph data...
+[2m2026-02-16T18:36:36.171968Z[0m [32m INFO[0m KuzuDatabase::force_new_database - Database not found at: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/database.kz
+[2m2026-02-16T18:36:36.172098Z[0m [32m INFO[0m KuzuDatabase::get_or_create_database - Database already exists in filesystem: false
+[2m2026-02-16T18:36:36.210020Z[0m [32m INFO[0m KuzuDatabase::get_or_create_database - Database created at: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/database.kz
+[2m2026-02-16T18:36:36.210068Z[0m [32m INFO[0m Initializing knowledge graph schema...
+[2m2026-02-16T18:36:36.240208Z[0m [32m INFO[0m Creating node table: DirectoryNode
+[2m2026-02-16T18:36:36.281188Z[0m [32m INFO[0m Successfully created node table: DirectoryNode
+[2m2026-02-16T18:36:36.281232Z[0m [32m INFO[0m Creating node table: FileNode
+[2m2026-02-16T18:36:36.306543Z[0m [32m INFO[0m Successfully created node table: FileNode
+[2m2026-02-16T18:36:36.306596Z[0m [32m INFO[0m Creating node table: DefinitionNode
+[2m2026-02-16T18:36:36.359311Z[0m [32m INFO[0m Successfully created node table: DefinitionNode
+[2m2026-02-16T18:36:36.359363Z[0m [32m INFO[0m Creating node table: ImportedSymbolNode
+[2m2026-02-16T18:36:36.422317Z[0m [32m INFO[0m Successfully created node table: ImportedSymbolNode
+[2m2026-02-16T18:36:36.422368Z[0m [32m INFO[0m Creating relationship table: DIRECTORY_RELATIONSHIPS
+[2m2026-02-16T18:36:36.424760Z[0m [32m INFO[0m Successfully created relationship table: DIRECTORY_RELATIONSHIPS
+[2m2026-02-16T18:36:36.424809Z[0m [32m INFO[0m Creating relationship table: FILE_RELATIONSHIPS
+[2m2026-02-16T18:36:36.426651Z[0m [32m INFO[0m Successfully created relationship table: FILE_RELATIONSHIPS
+[2m2026-02-16T18:36:36.426690Z[0m [32m INFO[0m Creating relationship table: DEFINITION_RELATIONSHIPS
+[2m2026-02-16T18:36:36.428532Z[0m [32m INFO[0m Successfully created relationship table: DEFINITION_RELATIONSHIPS
+[2m2026-02-16T18:36:36.428566Z[0m [32m INFO[0m Creating relationship table: IMPORTED_SYMBOL_RELATIONSHIPS
+[2m2026-02-16T18:36:36.430437Z[0m [32m INFO[0m Successfully created relationship table: IMPORTED_SYMBOL_RELATIONSHIPS
+[2m2026-02-16T18:36:36.433617Z[0m [32m INFO[0m Knowledge graph schema initialized successfully
+[2m2026-02-16T18:36:36.433642Z[0m [32m INFO[0m Importing graph data from Parquet files in: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files
+[2m2026-02-16T18:36:36.434262Z[0m [32m INFO[0m Importing DirectoryNode from /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/directories.parquet
+[2m2026-02-16T18:36:36.434312Z[0m [32m INFO[0m Importing data into DirectoryNode: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/directories.parquet
+[2m2026-02-16T18:36:36.571373Z[0m [32m INFO[0m Successfully imported data into DirectoryNode
+[2m2026-02-16T18:36:36.571462Z[0m [32m INFO[0m Importing FileNode from /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/files.parquet
+[2m2026-02-16T18:36:36.571487Z[0m [32m INFO[0m Importing data into FileNode: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/files.parquet
+[2m2026-02-16T18:36:36.699213Z[0m [32m INFO[0m Successfully imported data into FileNode
+[2m2026-02-16T18:36:36.699280Z[0m [32m INFO[0m Importing DefinitionNode from /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/definitions.parquet
+[2m2026-02-16T18:36:36.699301Z[0m [32m INFO[0m Importing data into DefinitionNode: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/definitions.parquet
+[2m2026-02-16T18:36:36.941299Z[0m [32m INFO[0m Successfully imported data into DefinitionNode
+[2m2026-02-16T18:36:36.941390Z[0m [32m INFO[0m Importing ImportedSymbolNode from /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/imported_symbols.parquet
+[2m2026-02-16T18:36:36.941451Z[0m [32m INFO[0m Importing data into ImportedSymbolNode: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/imported_symbols.parquet
+[2m2026-02-16T18:36:37.092251Z[0m [32m INFO[0m Successfully imported data into ImportedSymbolNode
+[2m2026-02-16T18:36:37.092358Z[0m [32m INFO[0m Importing relationship data into DIRECTORY_RELATIONSHIPS: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/directorynode_to_directorynode_relationships.parquet
+[2m2026-02-16T18:36:37.102057Z[0m [32m INFO[0m Successfully imported relationship data into DIRECTORY_RELATIONSHIPS
+[2m2026-02-16T18:36:37.102099Z[0m [32m INFO[0m Successfully imported DIRECTORY_RELATIONSHIPS (DirectoryNode -> DirectoryNode)
+[2m2026-02-16T18:36:37.102185Z[0m [32m INFO[0m Importing relationship data into DIRECTORY_RELATIONSHIPS: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/directorynode_to_filenode_relationships.parquet
+[2m2026-02-16T18:36:37.124923Z[0m [32m INFO[0m Successfully imported relationship data into DIRECTORY_RELATIONSHIPS
+[2m2026-02-16T18:36:37.124960Z[0m [32m INFO[0m Successfully imported DIRECTORY_RELATIONSHIPS (DirectoryNode -> FileNode)
+[2m2026-02-16T18:36:37.125027Z[0m [32m INFO[0m Importing relationship data into FILE_RELATIONSHIPS: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/filenode_to_definitionnode_relationships.parquet
+[2m2026-02-16T18:36:37.197098Z[0m [32m INFO[0m Successfully imported relationship data into FILE_RELATIONSHIPS
+[2m2026-02-16T18:36:37.197147Z[0m [32m INFO[0m Successfully imported FILE_RELATIONSHIPS (FileNode -> DefinitionNode)
+[2m2026-02-16T18:36:37.197238Z[0m [32m INFO[0m Importing relationship data into FILE_RELATIONSHIPS: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/filenode_to_importedsymbolnode_relationships.parquet
+[2m2026-02-16T18:36:37.307225Z[0m [32m INFO[0m Successfully imported relationship data into FILE_RELATIONSHIPS
+[2m2026-02-16T18:36:37.307253Z[0m [32m INFO[0m Successfully imported FILE_RELATIONSHIPS (FileNode -> ImportedSymbolNode)
+[2m2026-02-16T18:36:37.307334Z[0m [32m INFO[0m Importing relationship data into DEFINITION_RELATIONSHIPS: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/definitionnode_to_definitionnode_relationships.parquet
+[2m2026-02-16T18:36:37.405163Z[0m [32m INFO[0m Successfully imported relationship data into DEFINITION_RELATIONSHIPS
+[2m2026-02-16T18:36:37.405191Z[0m [32m INFO[0m Successfully imported DEFINITION_RELATIONSHIPS (DefinitionNode -> DefinitionNode)
+[2m2026-02-16T18:36:37.405251Z[0m [32m INFO[0m Importing relationship data into DEFINITION_RELATIONSHIPS: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/definitionnode_to_importedsymbolnode_relationships.parquet
+[2m2026-02-16T18:36:37.422455Z[0m [32m INFO[0m Successfully imported relationship data into DEFINITION_RELATIONSHIPS
+[2m2026-02-16T18:36:37.422502Z[0m [32m INFO[0m Successfully imported DEFINITION_RELATIONSHIPS (DefinitionNode -> ImportedSymbolNode)
+[2m2026-02-16T18:36:37.422603Z[0m [32m INFO[0m Importing relationship data into IMPORTED_SYMBOL_RELATIONSHIPS: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/importedsymbolnode_to_importedsymbolnode_relationships.parquet
+[2m2026-02-16T18:36:37.433556Z[0m [32m INFO[0m Successfully imported relationship data into IMPORTED_SYMBOL_RELATIONSHIPS
+[2m2026-02-16T18:36:37.433590Z[0m [32m INFO[0m Successfully imported IMPORTED_SYMBOL_RELATIONSHIPS (ImportedSymbolNode -> ImportedSymbolNode)
+[2m2026-02-16T18:36:37.433666Z[0m [32m INFO[0m Importing relationship data into IMPORTED_SYMBOL_RELATIONSHIPS: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/importedsymbolnode_to_definitionnode_relationships.parquet
+[2m2026-02-16T18:36:37.488156Z[0m [32m INFO[0m Successfully imported relationship data into IMPORTED_SYMBOL_RELATIONSHIPS
+[2m2026-02-16T18:36:37.488237Z[0m [32m INFO[0m Successfully imported IMPORTED_SYMBOL_RELATIONSHIPS (ImportedSymbolNode -> DefinitionNode)
+[2m2026-02-16T18:36:37.488307Z[0m [32m INFO[0m Importing relationship data into IMPORTED_SYMBOL_RELATIONSHIPS: /home/jules/.gkg/gkg_workspace_folders/0c1b0b9dc1986ba9/0c1b0b9dc1986ba9/parquet_files/importedsymbolnode_to_filenode_relationships.parquet
+[2m2026-02-16T18:36:37.499268Z[0m [32m INFO[0m Successfully imported relationship data into IMPORTED_SYMBOL_RELATIONSHIPS
+[2m2026-02-16T18:36:37.499311Z[0m [32m INFO[0m Successfully imported IMPORTED_SYMBOL_RELATIONSHIPS (ImportedSymbolNode -> FileNode)
+[2m2026-02-16T18:36:37.499317Z[0m [32m INFO[0m Successfully imported all available consolidated relationship data
+[2m2026-02-16T18:36:38.301027Z[0m [32m INFO[0m Successfully imported graph data from Parquet files
+[2m2026-02-16T18:36:38.376880Z[0m [32m INFO[0m Database loading completed successfully:
+[2m2026-02-16T18:36:38.376933Z[0m [32m INFO[0m Schema Stats: 8 tables (4 node, 4 rel), 51958 nodes, 162288 relationships
+Tables: DirectoryNode, FileNode, DefinitionNode, FILE_RELATIONSHIPS, DEFINITION_RELATIONSHIPS, ImportedSymbolNode, DIRECTORY_RELATIONSHIPS, IMPORTED_SYMBOL_RELATIONSHIPS
+[2m2026-02-16T18:36:38.380736Z[0m [32m INFO[0m ✅ Repository indexing completed for 'superset_repo' in 10.383916911s
+[2m2026-02-16T18:36:38.380774Z[0m [32m INFO[0m 📊 Final results: 99.9% complete - 3769 processed, 0 skipped, 4 errors
+[2m2026-02-16T18:36:38.436468Z[0m [32m INFO[0m Project reindexed: /app/superset_repo
+[2m2026-02-16T18:36:38.436588Z[0m [32m INFO[0m ✅ Workspace indexing completed in 10.57 seconds
